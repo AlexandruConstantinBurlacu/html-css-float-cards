@@ -16,6 +16,7 @@ body {
 }
 
 h1 {
+    color: #E53170;
     margin-top: 1em;
     margin-bottom: 1.5em;
 }
@@ -35,6 +36,11 @@ h1, section .center {
     width: calc(100% / 3);
     background-color: black;
     padding: 25px 16px;
+    margin-bottom: 50px;
+}
+
+.row .margin {
+    margin-top: 50px;
 }
 
 .row .column img {
@@ -49,5 +55,5 @@ h1, section .center {
 }
 
 .row .column .mail {
-    color: lightskyblue;
+    color: #00BDF3;
 }
