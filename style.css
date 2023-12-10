@@ -30,6 +30,7 @@ h1 {
     float: left;
     width: calc(100% / 3);
     background-color: black;
+    padding: 25px 16px;
 }
 
 .row .column img {
