@@ -35,7 +35,6 @@ h1, section .center {
     float: left;
     width: calc(100% / 3);
     background-color: black;
-    padding: 25px 16px;
     margin-bottom: 50px;
 }
 
