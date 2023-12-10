@@ -29,4 +29,17 @@ h1 {
 .row .column {
     float: left;
     width: calc(100% / 3);
+    background-color: black;
+}
+
+.row .column img {
+    width: 100px;
+}
+
+.row .column h4 {
+    color: white;
+}
+
+img {
+    float: left;
 }
