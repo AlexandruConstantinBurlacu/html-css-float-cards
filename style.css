@@ -34,12 +34,14 @@ h1 {
 
 .row .column img {
     width: 100px;
-}
-
-.row .column h4 {
-    color: white;
-}
-
-img {
     float: left;
+}
+
+.row .column h4, .row .column p {
+    color: white;
+    font-size: 16px;
+}
+
+.row .column .mail {
+    color: lightskyblue;
 }
