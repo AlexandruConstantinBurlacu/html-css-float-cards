@@ -34,7 +34,6 @@ h1, section .center {
 .row .column {
     float: left;
     width: calc(100% / 3);
-    border: 1px solid red;
     padding: 20px;
 }
 
@@ -48,6 +47,9 @@ h1, section .center {
     color: white;
     font-size: 16px;
     background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: left;
 }
 
 .row .column .mail {
