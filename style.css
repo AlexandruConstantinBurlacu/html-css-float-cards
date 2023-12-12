@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+.clearfix {
     content: '';
     display: table;
     clear: both;
@@ -35,6 +35,7 @@ h1, section .center {
     float: left;
     width: calc(100% / 3);
     border: 1px solid red;
+    padding: 20px;
 }
 
 .row .column img {
@@ -46,16 +47,9 @@ h1, section .center {
 .row .column h4, .row .column p {
     color: white;
     font-size: 16px;
+    background-color: black;
 }
 
 .row .column .mail {
     color: #00BDF3;
-}
-
-.row .background .margin {
-    padding: 10px;
-}
-
-.background {
-    background-color: black;
 }
